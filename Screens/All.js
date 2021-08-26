@@ -5,7 +5,7 @@ import { View, Text, StyleSheet } from "react-native";
 class All extends Component {
     render() {
         return(
-            <View style={{flex: 1, alignItems: 'center', justifyContent: 'center'}}>
+            <View style={{flex: 1, alignItems: 'center', justifyContent: 'center', backgroundColor: 'skyblue'}}>
                 <Text style={styles.text}>단톡방 채팅 유형</Text>
                 <Text style={styles.text}>SNS할 때 특징</Text>
                 <Text style={styles.text}>상사한테 혼날 때 반응</Text>

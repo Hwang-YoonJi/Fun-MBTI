@@ -5,7 +5,7 @@ import { View, Text, StyleSheet } from "react-native";
 class Types extends Component {
     render() {
         return(
-            <View style={{flex: 1, alignItems: 'center', justifyContent: 'center'}}>
+            <View style={{flex: 1, alignItems: 'center', justifyContent: 'center', backgroundColor: 'pink'}}>
                 <Text style={styles.text}>ISTP</Text>
                 <Text style={styles.text}>ISTJ</Text>
                 <Text style={styles.text}>ISFP</Text>
