@@ -5,23 +5,23 @@ import All from "./Screens/All";
 import Types from "./Screens/Types";
 import Home from "./Screens/Home";
 
-
 class Stack extends Component {
-    render() {
-        return(
-            <AppContainer />
-        )
-    }
+  render() {
+    return <AppContainer headerMode="none" />;
+  }
 }
 
-const myStack = createStackNavigator({
-    'Home' : Home,
-    'All' : All,
-    'Types' : Types
-},{
-    initialRouteName: 'Home'
-});
+const myStack = createStackNavigator(
+  {
+    Home: Home,
+    All: All,
+    Types: Types,
+  },
+  {
+    initialRouteName: "Home",
+  }
+);
 
-const AppContainer = createAppContainer(myStack)
+const AppContainer = createAppContainer(myStack);
 
 export default Stack;
