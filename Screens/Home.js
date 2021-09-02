@@ -20,7 +20,12 @@ const Home = ({ navigation }) => {
         backgroundColor: "#efebe9",
       }}
     >
-      <Text style={{ alignItems: "flex-start", fontSize: 50 }}>Fun MBTI</Text>
+      <Text style={{ alignItems: "flex-start", fontSize: 50 }}>
+        Fun <Text style={{ color: "red" }}>M</Text>
+        <Text style={{ color: "orange" }}>B</Text>
+        <Text style={{ color: "green" }}>T</Text>
+        <Text style={{ color: "blue" }}>I</Text>
+      </Text>
       <Text style={{ alignItems: "flex-start", margin: 10, fontSize: 20 }}>
         재미로 보는 MBTI
       </Text>

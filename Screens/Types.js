@@ -16,7 +16,7 @@ const Types = ({ navigation }) => {
           paddingVertical: 20,
           paddingTop: 30,
           alignItems: "center",
-          borderBottomColor: "#efebe9",
+          borderBottomColor: "lightgray",
           borderBottomWidth: 1,
           backgroundColor: "#efebe9",
           flexDirection: "row",
@@ -27,7 +27,7 @@ const Types = ({ navigation }) => {
           <Entypo
             name="chevron-thin-left"
             size={24}
-            color="black"
+            color="#017aff"
             style={{ marginLeft: 10 }}
           />
         </TouchableOpacity>
@@ -55,7 +55,7 @@ const Types = ({ navigation }) => {
             style={{
               width: 100,
               height: 100,
-              backgroundColor: "#c7a4ff",
+              backgroundColor: "#ffff8d",
               borderRadius: 10,
               justifyContent: "center",
               alignItems: "center",
@@ -68,7 +68,7 @@ const Types = ({ navigation }) => {
             style={{
               width: 100,
               height: 100,
-              backgroundColor: "#c7a4ff",
+              backgroundColor: "#80d8ff",
               borderRadius: 10,
               justifyContent: "center",
               alignItems: "center",
@@ -81,7 +81,7 @@ const Types = ({ navigation }) => {
             style={{
               width: 100,
               height: 100,
-              backgroundColor: "#c7a4ff",
+              backgroundColor: "#ffff8d",
               borderRadius: 10,
               justifyContent: "center",
               alignItems: "center",
@@ -103,7 +103,7 @@ const Types = ({ navigation }) => {
             style={{
               width: 100,
               height: 100,
-              backgroundColor: "#c7a4ff",
+              backgroundColor: "#80d8ff",
               borderRadius: 10,
               justifyContent: "center",
               alignItems: "center",
@@ -116,7 +116,7 @@ const Types = ({ navigation }) => {
             style={{
               width: 100,
               height: 100,
-              backgroundColor: "pink",
+              backgroundColor: "#b388ff",
               borderRadius: 10,
               justifyContent: "center",
               alignItems: "center",
@@ -129,7 +129,7 @@ const Types = ({ navigation }) => {
             style={{
               width: 100,
               height: 100,
-              backgroundColor: "pink",
+              backgroundColor: "#b388ff",
               borderRadius: 10,
               justifyContent: "center",
               alignItems: "center",
@@ -151,7 +151,7 @@ const Types = ({ navigation }) => {
             style={{
               width: 100,
               height: 100,
-              backgroundColor: "pink",
+              backgroundColor: "#b9f6ca",
               borderRadius: 10,
               justifyContent: "center",
               alignItems: "center",
@@ -164,7 +164,7 @@ const Types = ({ navigation }) => {
             style={{
               width: 100,
               height: 100,
-              backgroundColor: "pink",
+              backgroundColor: "#b9f6ca",
               borderRadius: 10,
               justifyContent: "center",
               alignItems: "center",
@@ -177,7 +177,7 @@ const Types = ({ navigation }) => {
             style={{
               width: 100,
               height: 100,
-              backgroundColor: "lightgreen",
+              backgroundColor: "#ffff8d",
               borderRadius: 10,
               justifyContent: "center",
               alignItems: "center",
@@ -199,7 +199,7 @@ const Types = ({ navigation }) => {
             style={{
               width: 100,
               height: 100,
-              backgroundColor: "lightgreen",
+              backgroundColor: "#80d8ff",
               borderRadius: 10,
               justifyContent: "center",
               alignItems: "center",
@@ -212,7 +212,7 @@ const Types = ({ navigation }) => {
             style={{
               width: 100,
               height: 100,
-              backgroundColor: "lightgreen",
+              backgroundColor: "#ffff8d",
               borderRadius: 10,
               justifyContent: "center",
               alignItems: "center",
@@ -225,7 +225,7 @@ const Types = ({ navigation }) => {
             style={{
               width: 100,
               height: 100,
-              backgroundColor: "lightgreen",
+              backgroundColor: "#80d8ff",
               borderRadius: 10,
               justifyContent: "center",
               alignItems: "center",
@@ -247,7 +247,7 @@ const Types = ({ navigation }) => {
             style={{
               width: 100,
               height: 100,
-              backgroundColor: "skyblue",
+              backgroundColor: "#b388ff",
               borderRadius: 10,
               justifyContent: "center",
               alignItems: "center",
@@ -260,7 +260,7 @@ const Types = ({ navigation }) => {
             style={{
               width: 100,
               height: 100,
-              backgroundColor: "skyblue",
+              backgroundColor: "#b388ff",
               borderRadius: 10,
               justifyContent: "center",
               alignItems: "center",
@@ -273,7 +273,7 @@ const Types = ({ navigation }) => {
             style={{
               width: 100,
               height: 100,
-              backgroundColor: "skyblue",
+              backgroundColor: "#b9f6ca",
               borderRadius: 10,
               justifyContent: "center",
               alignItems: "center",
@@ -294,7 +294,7 @@ const Types = ({ navigation }) => {
             style={{
               width: 100,
               height: 100,
-              backgroundColor: "skyblue",
+              backgroundColor: "#b9f6ca",
               borderRadius: 10,
               justifyContent: "center",
               alignItems: "center",

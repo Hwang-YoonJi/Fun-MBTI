@@ -16,7 +16,7 @@ const All = ({ navigation }) => {
           paddingVertical: 20,
           paddingTop: 30,
           alignItems: "center",
-          borderBottomColor: "#efebe9",
+          borderBottomColor: "lightgray",
           borderBottomWidth: 1,
           backgroundColor: "#efebe9",
           flexDirection: "row",
@@ -27,7 +27,7 @@ const All = ({ navigation }) => {
           <Entypo
             name="chevron-thin-left"
             size={24}
-            color="black"
+            color="#017aff"
             style={{ marginLeft: 10 }}
           />
         </TouchableOpacity>
@@ -44,6 +44,7 @@ const All = ({ navigation }) => {
       <ScrollView style={{ flex: 1 }}>
         <View style={{ alignItems: "center", marginTop: 10 }}>
           <TouchableOpacity
+            onPress={() => navigation.navigate("a1")}
             style={{
               width: 350,
               height: 60,
@@ -57,6 +58,7 @@ const All = ({ navigation }) => {
             <Text style={styles.text}>단톡방 채팅 유형🙂</Text>
           </TouchableOpacity>
           <TouchableOpacity
+            onPress={() => navigation.navigate("a2")}
             style={{
               width: 350,
               height: 60,
@@ -67,9 +69,10 @@ const All = ({ navigation }) => {
               margin: 10,
             }}
           >
-            <Text style={styles.text}>SNS할 때 특징</Text>
+            <Text style={styles.text}>SNS할 때 특징📱</Text>
           </TouchableOpacity>
           <TouchableOpacity
+            onPress={() => navigation.navigate("a3")}
             style={{
               width: 350,
               height: 60,
@@ -80,9 +83,10 @@ const All = ({ navigation }) => {
               margin: 10,
             }}
           >
-            <Text style={styles.text}>상사한테 혼날 때 반응</Text>
+            <Text style={styles.text}>상사한테 혼날 때 반응😡</Text>
           </TouchableOpacity>
           <TouchableOpacity
+            onPress={() => navigation.navigate("a4")}
             style={{
               width: 350,
               height: 60,
@@ -93,9 +97,10 @@ const All = ({ navigation }) => {
               margin: 10,
             }}
           >
-            <Text style={styles.text}>새로운 사람을 만날 때</Text>
+            <Text style={styles.text}>새로운 사람을 만날 때🤩</Text>
           </TouchableOpacity>
           <TouchableOpacity
+            onPress={() => navigation.navigate("a5")}
             style={{
               width: 350,
               height: 60,
@@ -106,9 +111,10 @@ const All = ({ navigation }) => {
               margin: 10,
             }}
           >
-            <Text style={styles.text}>무인도에 떨어졌을 때</Text>
+            <Text style={styles.text}>무인도에 떨어졌을 때🏝</Text>
           </TouchableOpacity>
           <TouchableOpacity
+            onPress={() => navigation.navigate("a6")}
             style={{
               width: 350,
               height: 60,
@@ -119,9 +125,10 @@ const All = ({ navigation }) => {
               margin: 10,
             }}
           >
-            <Text style={styles.text}>mbti 유형별 분노</Text>
+            <Text style={styles.text}>유형별 분노🔥</Text>
           </TouchableOpacity>
           <TouchableOpacity
+            onPress={() => navigation.navigate("a7")}
             style={{
               width: 350,
               height: 60,
@@ -132,9 +139,10 @@ const All = ({ navigation }) => {
               margin: 10,
             }}
           >
-            <Text style={styles.text}>mbti 유형별 욕망</Text>
+            <Text style={styles.text}>유형별 욕망👊</Text>
           </TouchableOpacity>
           <TouchableOpacity
+            onPress={() => navigation.navigate("a8")}
             style={{
               width: 350,
               height: 60,
@@ -145,9 +153,10 @@ const All = ({ navigation }) => {
               margin: 10,
             }}
           >
-            <Text style={styles.text}>mbti 유형별 이상형</Text>
+            <Text style={styles.text}>유형별 이상형😍</Text>
           </TouchableOpacity>
           <TouchableOpacity
+            onPress={() => navigation.navigate("a9")}
             style={{
               width: 350,
               height: 60,
@@ -158,9 +167,10 @@ const All = ({ navigation }) => {
               margin: 10,
             }}
           >
-            <Text style={styles.text}>이별 대처법</Text>
+            <Text style={styles.text}>이별 대처법😭</Text>
           </TouchableOpacity>
           <TouchableOpacity
+            onPress={() => navigation.navigate("a10")}
             style={{
               width: 350,
               height: 60,
@@ -171,9 +181,10 @@ const All = ({ navigation }) => {
               margin: 10,
             }}
           >
-            <Text style={styles.text}>놀림 많이 받는 순위</Text>
+            <Text style={styles.text}>놀림 많이 받는 순위🤪</Text>
           </TouchableOpacity>
           <TouchableOpacity
+            onPress={() => navigation.navigate("a11")}
             style={{
               width: 350,
               height: 60,
@@ -184,7 +195,7 @@ const All = ({ navigation }) => {
               margin: 10,
             }}
           >
-            <Text style={styles.text}>유형별 참을 수 없는 것</Text>
+            <Text style={styles.text}>참을 수 없는 것☹️</Text>
           </TouchableOpacity>
         </View>
       </ScrollView>
