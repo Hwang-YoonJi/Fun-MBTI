@@ -52,6 +52,7 @@ const Types = ({ navigation }) => {
           }}
         >
           <TouchableOpacity
+            onPress={() => navigation.navigate("istp")}
             style={{
               width: 100,
               height: 100,
@@ -65,6 +66,7 @@ const Types = ({ navigation }) => {
             <Text style={styles.text}>ISTP</Text>
           </TouchableOpacity>
           <TouchableOpacity
+            onPress={() => navigation.navigate("istj")}
             style={{
               width: 100,
               height: 100,
@@ -78,6 +80,7 @@ const Types = ({ navigation }) => {
             <Text style={styles.text}>ISTJ</Text>
           </TouchableOpacity>
           <TouchableOpacity
+            onPress={() => navigation.navigate("isfp")}
             style={{
               width: 100,
               height: 100,
@@ -100,6 +103,7 @@ const Types = ({ navigation }) => {
           }}
         >
           <TouchableOpacity
+            onPress={() => navigation.navigate("isfj")}
             style={{
               width: 100,
               height: 100,
@@ -113,6 +117,7 @@ const Types = ({ navigation }) => {
             <Text style={styles.text}>ISFJ</Text>
           </TouchableOpacity>
           <TouchableOpacity
+            onPress={() => navigation.navigate("intp")}
             style={{
               width: 100,
               height: 100,
@@ -126,6 +131,7 @@ const Types = ({ navigation }) => {
             <Text style={styles.text}>INTP</Text>
           </TouchableOpacity>
           <TouchableOpacity
+            onPress={() => navigation.navigate("intj")}
             style={{
               width: 100,
               height: 100,
@@ -148,6 +154,7 @@ const Types = ({ navigation }) => {
           }}
         >
           <TouchableOpacity
+            onPress={() => navigation.navigate("infp")}
             style={{
               width: 100,
               height: 100,
@@ -161,6 +168,7 @@ const Types = ({ navigation }) => {
             <Text style={styles.text}>INFP</Text>
           </TouchableOpacity>
           <TouchableOpacity
+            onPress={() => navigation.navigate("infj")}
             style={{
               width: 100,
               height: 100,
@@ -174,6 +182,7 @@ const Types = ({ navigation }) => {
             <Text style={styles.text}>INFJ</Text>
           </TouchableOpacity>
           <TouchableOpacity
+            onPress={() => navigation.navigate("estp")}
             style={{
               width: 100,
               height: 100,
@@ -196,6 +205,7 @@ const Types = ({ navigation }) => {
           }}
         >
           <TouchableOpacity
+            onPress={() => navigation.navigate("estj")}
             style={{
               width: 100,
               height: 100,
@@ -209,6 +219,7 @@ const Types = ({ navigation }) => {
             <Text style={styles.text}>ESTJ</Text>
           </TouchableOpacity>
           <TouchableOpacity
+            onPress={() => navigation.navigate("esfp")}
             style={{
               width: 100,
               height: 100,
@@ -222,6 +233,7 @@ const Types = ({ navigation }) => {
             <Text style={styles.text}>ESFP</Text>
           </TouchableOpacity>
           <TouchableOpacity
+            onPress={() => navigation.navigate("esfj")}
             style={{
               width: 100,
               height: 100,
@@ -244,6 +256,7 @@ const Types = ({ navigation }) => {
           }}
         >
           <TouchableOpacity
+            onPress={() => navigation.navigate("entp")}
             style={{
               width: 100,
               height: 100,
@@ -257,6 +270,7 @@ const Types = ({ navigation }) => {
             <Text style={styles.text}>ENTP</Text>
           </TouchableOpacity>
           <TouchableOpacity
+            onPress={() => navigation.navigate("entj")}
             style={{
               width: 100,
               height: 100,
@@ -270,6 +284,7 @@ const Types = ({ navigation }) => {
             <Text style={styles.text}>ENTJ</Text>
           </TouchableOpacity>
           <TouchableOpacity
+            onPress={() => navigation.navigate("enfp")}
             style={{
               width: 100,
               height: 100,
@@ -291,6 +306,7 @@ const Types = ({ navigation }) => {
           }}
         >
           <TouchableOpacity
+            onPress={() => navigation.navigate("enfj")}
             style={{
               width: 100,
               height: 100,
